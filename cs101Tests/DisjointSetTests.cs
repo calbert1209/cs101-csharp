@@ -6,7 +6,7 @@ namespace cs101Tests
 {
     public class DisjointSetTests
     {
-        private DisjointSet _ds;
+        private readonly DisjointSet _ds;
         public DisjointSetTests()
         {
             _ds = new DisjointSet(6);
